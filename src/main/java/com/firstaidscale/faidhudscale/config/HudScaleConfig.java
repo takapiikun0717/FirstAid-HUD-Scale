@@ -49,7 +49,7 @@ public class HudScaleConfig {
                         " IDが出力されるから、そこから 'firstaid' から始まるIDを探して",
                         " ここに設定し直してね。"
                 )
-                .define("overlayId", "firstaid:player_health");
+                .define("overlayId", "firstaid:hud");
 
         ANCHOR_X = builder
                 .comment(
